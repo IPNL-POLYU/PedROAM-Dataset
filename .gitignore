@@ -1,0 +1,24 @@
+# Local metadata and environments
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+
+# Downloaded data and generated products
+/data/
+/downloads/
+/output/
+/tmp/
+*.bag
+*.db3
+*.mcap
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Small metadata/documentation bundle
+!/assets/metadata-documentation.zip
